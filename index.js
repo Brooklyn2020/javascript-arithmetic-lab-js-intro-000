@@ -25,7 +25,7 @@ function makeInt(a,b) {
   return parseInt(a,10);
 }
 
-function preserveDecimal(string) {
-  parseFloat("2.22222",10);
-  return string
+function preserveDecimal(a,b) {
+return parseFloat(a,10);
+
 }
