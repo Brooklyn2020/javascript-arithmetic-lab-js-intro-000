@@ -23,7 +23,7 @@ function decrement(n) {
 
 function makeInt(a,b) {
   return parseInt("2", 10);
-  
+
 }
 
 function preserveDecimal(string) {
