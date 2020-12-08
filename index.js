@@ -1,16 +1,15 @@
-function add(number) {
-number ===  a + b;
-return number;
+function add(a,b) {
+return a + b
 }
-function subtract() {
-  60 - 40
+function subtract(a,b) {
+  a - b
 }
-function multiply() {
-  2 * 3.4
+function multiply(a,b) {
+  return a * b
 }
-function divide() {
-  5.0 / 2.5
-}
+function divide(a,b) {
+  return a / b
+  }
 
 function increment(n) {
   n++;
@@ -23,11 +22,11 @@ function decrement(n) {
 }
 
 function makeInt(string) {
-  string === parseInt("2", 10);
+  parseInt("2", 10);
   return string
 }
 
 function preserveDecimal(string) {
-  string === parseFloat("2.22222",10);
+  parseFloat("2.22222",10);
   return string
 }
